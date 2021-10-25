@@ -9,7 +9,7 @@ import 'package:http/http.dart' as http;
 
 Map<String, String> get headers => {
       "X-RapidAPI-Host": "yummly2.p.rapidapi.com",
-      "x-rapidapi-key": "826155c0damshb4218ffbcf2554dp1a2017jsn8965ebf45cfb"
+      "x-rapidapi-key": ""
     };
 
 Future<Categories> fetchCategories() async {
